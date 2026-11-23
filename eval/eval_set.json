@@ -1,0 +1,12 @@
+[
+  {"id": 1, "question": "What is the total cost for Task 3?", "method": "query", "expected_value": 85750, "expected_source": "Task Costs!F6"},
+  {"id": 2, "question": "What is the labour cost for Task 1?", "method": "query", "expected_value": 18500, "expected_source": "Task Costs!C4"},
+  {"id": 3, "question": "What was the budget for Task 4?", "method": "query", "expected_value": 105000, "expected_source": "Task Costs!G7"},
+  {"id": 4, "question": "What is the variance for Task 2?", "method": "query", "expected_value": 2000, "expected_source": "Task Costs!H5"},
+  {"id": 5, "question": "What is the total cost across all tasks?", "method": "query", "expected_value": 322000, "expected_source": "Task Costs!F9"},
+  {"id": 6, "question": "What was the actual spend in Q2?", "method": "query", "expected_value": 101200, "expected_source": "Quarterly Spend!C3"},
+  {"id": 7, "question": "How many weeks is Task 5 expected to take?", "method": "query", "expected_value": 7, "expected_source": "Task Costs!I8"},
+  {"id": 8, "question": "What risks does the report identify?", "method": "retrieval", "expected_keywords": ["supply", "asbestos", "labour", "overrun"], "min_keywords": 3, "expected_pages": [3]},
+  {"id": 9, "question": "Why is Task 3 over budget?", "method": "retrieval", "expected_keywords": ["truss", "corrosion|replace"], "min_keywords": 2, "expected_pages": [1, 3]},
+  {"id": 10, "question": "What are the recommended next steps?", "method": "retrieval", "expected_keywords": ["asbestos survey", "tender", "heat pump"], "min_keywords": 2, "expected_pages": [4]}
+]
